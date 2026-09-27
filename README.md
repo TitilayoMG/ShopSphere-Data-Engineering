@@ -101,7 +101,7 @@ Infrastructure files under `infrastructure/` and service definitions in `docker-
 
 This repository contains two assignments, each with its own detailed documentation.
 
-* **Assignment 1:** See [`pipeline/README.md`](pipeline/postgres_pipeline/README.md) for the project overview, architecture, setup instructions, and implementation details.
+* **Assignment 1:** See [`pipeline/postgres_pipeline/README.md`](pipeline/postgres_pipeline/README.md) for the project overview, architecture, setup instructions, and implementation details.
 * **Assignment 2:** See [`pipeline/README.md`](pipeline/README.md) for the project overview, architecture, setup instructions, and implementation details.
 
 Please refer to the respective README files for detailed information about each assignment.
