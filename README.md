@@ -1,6 +1,6 @@
 # ShopSphere Data Engineering Case Study
 
-This repository is a local batch data engineering case study for a beginner mentee. ShopSphere is a fictional e-commerce company with data spread across PostgreSQL, MongoDB, and a third-party logistics API. Your job is to build Python pipelines that stage raw data in MinIO, transform it, and load analytical tables into a PostgreSQL warehouse.
+This repository is a local batch data engineering case study. ShopSphere is a fictional e-commerce company with data spread across PostgreSQL, MongoDB, and a third-party logistics API. The job is to build Python pipelines that stage raw data in MinIO, transform it, and load analytical tables into a PostgreSQL warehouse.
 
 The infrastructure and source data are provided. The Python pipeline side is intentionally not scaffolded; the mentee is expected to create that structure themselves.
 
@@ -17,7 +17,7 @@ See [docs/architecture.md](docs/architecture.md) for the full diagram and explan
 
 ## Setup
 
-Create your local environment file:
+Create the local environment file:
 
 ```bash
 cp .env.example .env
@@ -95,3 +95,13 @@ You should also update:
 - `README.md` to document your completed pipeline behavior
 
 Infrastructure files under `infrastructure/` and service definitions in `docker-compose.yml` should normally remain unchanged unless you document a clear reason.
+
+
+## Assignment Documentation
+
+This repository contains two assignments, each with its own detailed documentation.
+
+* **Assignment 1:** See [`pipeline/README.md`](pipeline/postgres_pipeline/README.md) for the project overview, architecture, setup instructions, and implementation details.
+* **Assignment 2:** See [`pipeline/README.md`](pipeline/README.md) for the project overview, architecture, setup instructions, and implementation details.
+
+Please refer to the respective README files for detailed information about each assignment.
